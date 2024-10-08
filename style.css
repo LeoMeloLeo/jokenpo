@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #3a31cd; /* Cor de fundo vibrante */
+    font-family: 'Arial', sans-serif; /* Fonte mais limpa */
+    color: #fff; /* Cor do texto padrão */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff; /* Cor do texto */
+    background-color: #ffcc00; /* Amarelo brilhante */
+    border: 2px solid #000; /* Borda mais grossa */
+    border-radius: 15px; /* Borda arredondada */
+    padding: 15px; /* Espaçamento interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+}
+
+h2, h3{
+    color: #fff; /* Cor do texto */
+    background-color: #ffcc00; /* Amarelo brilhante */
+    border: 2px solid #000; /* Borda mais grossa */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Margem vertical */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+input[type=button], input[type=reset] {
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff9900; /* Laranja vibrante */
+    color: #fff; /* Cor do texto */
+    font-size: 1.15em;
+    cursor: pointer; /* Muda o cursor para indicar clicável */
+}
+
+input[type=button]:hover, input[type=reset]:hover {
+    background-color: #ffcc00; /* Amarelo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento */
+}
+
+form {
+    background-color: #ffcc00; /* Fundo branco semi-transparente */
+    border: 2px solid #000; /* Borda mais grossa */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+}
